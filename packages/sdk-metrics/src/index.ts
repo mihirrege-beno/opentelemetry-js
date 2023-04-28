@@ -58,6 +58,8 @@ export { InstrumentDescriptor, InstrumentType } from './InstrumentDescriptor';
 
 export { MeterProvider, MeterProviderOptions } from './MeterProvider';
 
+export { MetricProducer, MetricCollectOptions } from './export/MetricProducer';
+
 export {
   DefaultAggregation,
   ExplicitBucketHistogramAggregation,
